@@ -2,9 +2,6 @@ $(function(){
 	let slideIndex = 1;
 	let interval = setInterval("slidesShow()", 3000);
 
-	let slides = $('li');
-	let dots = $('.dot');
-
 	slidesShow = function() {
 
   		(slideIndex > $('li').length) ? slideIndex = 1 
