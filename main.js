@@ -37,7 +37,7 @@ $(function(){
 	}
 
 	restart = function() {
-  		interval = setInterval("slidesShow()", 2000);
+  		interval = setInterval("slidesShow()", 3000);
 	}
 
 	$('#carousel').mouseenter(function() {stop()});
